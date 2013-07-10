@@ -146,8 +146,6 @@ type Comment struct {
 var commentStyle = map[string]Comment {
 	".go": Comment{ "// ", "\n" },
 	".cpp": Comment{ "// ", "\n" },
-	".sh": Comment{ "# ", "\n" },
-	".bash": Comment{ "# ", "\n" },
 	".c": Comment{ "/* ", "*/\n" },
 }
 
