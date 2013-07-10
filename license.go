@@ -145,8 +145,10 @@ type Comment struct {
 
 var commentStyle = map[string]Comment {
 	".go": Comment{ "// ", "\n" },
+	".cc": Comment{ "// ", "\n" },
 	".cpp": Comment{ "// ", "\n" },
 	".c": Comment{ "/* ", "*/\n" },
+	".h": Comment{ "/* ", "*/\n" },
 }
 
 func sourceFiles(dir string) (ents []string) {
