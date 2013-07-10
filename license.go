@@ -1,3 +1,5 @@
+// © 2013 the License Authors under the MIT license. See AUTHORS for the list of authors.
+
 // License adds the MIT LICENSE file, an AUTHORS file, and copyright notices to a code repository.
 package main
 
